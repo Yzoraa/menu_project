@@ -1,0 +1,81 @@
+.boxwrap{
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    width: 400px;
+    height: 450px;
+    border: 1px solid rgb(38, 34, 34);
+}
+
+.right{
+    background-color: rgb(200, 200, 194);
+    width: 600px;
+    height: 450px;
+    position: relative;
+    border: 1px solid rgb(38, 34, 34);
+}
+
+
+/* 금액 폰트 작게 */
+.dom{
+    font-size: 9px;
+}
+.wrap{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.price{
+    font-size: 15px;
+    font-weight: bold;
+}
+.space{
+    padding: 0 5px;
+}
+.space2{
+    padding-right: 5px;
+}
+
+/* 음식 이미지 조정 */
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+/* 칼로리 나트륨 이미지 조정 */
+.SetImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.ImgBox{
+    display: flex;
+    justify-content: space-around;
+}
+.SetImg2{
+    position: absolute;
+    bottom: 170px;
+    font-weight: bolder;
+}
+
+/* 텍스트 위치 수정 */
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.text{
+    margin: 10px 10px 10px 10px;
+}

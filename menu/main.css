@@ -1,0 +1,326 @@
+.boxwrap{
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Top{
+    width: 640px;
+    height: 600px;
+    display: flex;
+}
+
+/* Top 왼쪽, 검정색 화면 */
+.T-left{
+    background-color: rgba(30, 11, 11, 0.847);
+    color: white;
+    width: 290px;
+    height: 600px;
+    position: relative;
+}
+
+/* Top 흰색 화면 */
+.T-r-top{
+    background-color: rgb(229, 223, 223);
+    width: 350px;
+    height: 370px;
+    position: relative;
+}
+
+/* Top 베이지 화면 */
+.T-r-bottom{
+    background-color: rgb(200, 200, 194);
+    width: 350px;
+    height: 230px;
+    position: relative;
+}
+
+.Bottom{
+    width: 640px;
+    height: 640px;
+    display: flex;
+}
+
+/* Bottom 흰색 왼쪽 */
+.B-left{
+    background-color: rgb(239, 236, 236);
+    width: 320px;
+    height: 640px;
+}
+
+/* Bottom 흰색 오른쪽 */
+.B-right{
+    background-color: rgb(239, 236, 236);
+    width: 320px;
+    height: 640px;
+}
+
+/* 설명부분 */
+.point{
+    background-color: rgba(30, 11, 11, 0.847);
+    color: white;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin: 30px 0 10px 10px;
+}
+.ex{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+/* 국/찌개류 첫번째 줄 */
+.soupContainer1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* 국/찌개류 두번째 줄 */
+.soupContainer2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* 국/찌개류 세번째 줄 */
+.soupContainer3{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* 볶음류 첫번째 줄 */
+.dishContainer1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* 분식류 박스 */
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 분식류 첫번째 라인 */
+.rice{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* 분식류 두번째 라인 */
+.etc{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* 빈 공간 확보 */
+.soup{
+    padding: 0 15px;
+}
+.dish1{
+    padding-top: 123px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dish2{
+    padding: 0 15px;
+}
+h2{
+    padding-left: 10px;
+}
+.space{
+    padding: 0 5px;
+}
+.space2{
+    padding-right: 5px;
+}
+
+/* 이미지 크기 조절 */
+.img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+/* 세트메뉴 박스 */
+.set{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.SetEx{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* 삼겹살 세트 이미지 정리 */
+.SetImg{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 40px;
+    left: 135px;
+    z-index: 3;
+}
+.SetImg2{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 40px;
+    left: 175px;
+    z-index: 2;
+}
+.SetImg3{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 40px;
+    left: 215px;
+    z-index: 1;
+}
+.SetImg4{
+    position: absolute;
+    bottom: 27px;
+    left: 10px;
+    z-index: 3;
+}
+.SetImg5{
+    position: absolute;
+    bottom: 63px;
+    left: 113px;
+}
+
+/* 제육볶음 세트 이미지 정리 */
+.SetImg6{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+}
+.SetImg7{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 145px;
+    right: 40px;
+    z-index: 3;
+}
+.SetImg8{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 95px;
+    right: 40px;
+    z-index: 2;
+}
+.SetImg9{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 45px;
+    right: 40px;
+    z-index: 1;
+}
+
+/* 냉면세트 이미지 정리 */
+.SetImg10{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 55px;
+    right: 105px;
+}
+.SetImg11{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 55px;
+    right: 7px;
+}
+.SetImg12{
+    position: absolute;
+    bottom: 85px;
+    right: 87px;
+    font-size: 12px;
+}
+
+/* 텍스트 정렬 */
+.text{
+    font-size: 9px;
+    text-align: right;
+    text-align: end;
+    margin-right: 7px;
+}
+.s4-text{
+    text-align: left;
+    margin-right: 13px;
+}
+.set5-1{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* 금액 폰트 작게 */
+.dom{
+    font-size: 9px;
+}
+.wrap2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.price{
+    font-size: 12px;
+    font-weight: bold;
+}
