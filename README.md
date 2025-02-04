@@ -3,7 +3,6 @@
 
 <h2>:star: 실행화면</h2>
 ![Image](https://github.com/user-attachments/assets/d6f6292a-1b5c-4e62-b252-99fabc3cd342)
-![Image](https://github.com/user-attachments/assets/6e0298b1-1bb1-484a-ae26-dc6929a7e4ce)
 
 <h2>📚 Tech Stack</h2>
 <div>
