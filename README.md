@@ -2,7 +2,7 @@
 <p>HTML과 CSS만 사용해 만든 가상 '메뉴판' 만들기입니다.</p>
 
 <h2>:star: 실행화면</h2>
-![Image](https://github.com/user-attachments/assets/d6f6292a-1b5c-4e62-b252-99fabc3cd342)
+![Image](https://github.com/user-attachments/assets/0935442c-1470-4051-b635-c4d7553aee5d)
 
 <h2>📚 Tech Stack</h2>
 <div>
