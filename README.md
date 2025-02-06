@@ -5,11 +5,12 @@
 <p>메인화면</p>
 <img src="https://github.com/user-attachments/assets/0ca88dc2-3476-4e94-af84-2082ac145cf5" width="330px" height="400px">
 <img src="https://github.com/user-attachments/assets/2e6fa324-083b-4395-99a6-337eebb9bb85" width="330px" height="400px">
-
 <br />
+
+
 <p>메뉴사진 클릭 시, 상세 페이지로 이동</p>
 <p>예시 이미지</p>
-<img src="https://github.com/user-attachments/assets/de0bc6ad-e447-46fb-b4c7-6ba146d7947b">
+<img src="https://github.com/user-attachments/assets/de0bc6ad-e447-46fb-b4c7-6ba146d7947b" width="330px">
 
 <h2>📚 Tech Stack</h2>
 <div>
