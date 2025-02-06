@@ -8,7 +8,7 @@
 <br /><br />
 
 <p>메뉴사진 클릭 시, 상세 페이지로 이동 (예시 이미지)</p>
-<img src="https://github.com/user-attachments/assets/de0bc6ad-e447-46fb-b4c7-6ba146d7947b" width="660px" height="200px">
+<img src="https://github.com/user-attachments/assets/de0bc6ad-e447-46fb-b4c7-6ba146d7947b" width="660px">
 
 <h2>📚 Tech Stack</h2>
 <div>
